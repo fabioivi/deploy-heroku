@@ -59,7 +59,7 @@ app.listen(port, function() {
 ````
 
 ### Agora vamos criar o arquivo inicial do nosso projeto (views/index.ejs)
-````
+````html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -81,7 +81,7 @@ app.listen(port, function() {
 ````
 
 ### Também vamos adicionar o arquivo css do nosso projeto (public/css/style.css)
-````
+````css
 body    { padding-top:50px; }
 .container .jumbotron    { border-radius:40px; }
 ````
@@ -98,17 +98,11 @@ Nossa aplicação deve estar rodando em http://localhost:8080
 
 ### Fazendo deploy da aplicação no Heroku
 ````
-heroku git:remote -a nome_app_heroku
-$ git push heroku master
-````
-
-### Fazendo deploy da aplicação no Heroku
-````
-heroku git:remote -a nome_app_heroku
+$ heroku git:remote -a nome_app_heroku
 $ git push heroku master
 ````
 
 ### Agora é só checar se a aplicação subiu no Heroku
 ````
-heroku open
+$ heroku open
 ````
