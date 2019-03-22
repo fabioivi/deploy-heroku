@@ -1,4 +1,4 @@
-# Como fazer deploy de uma aplicação NodeJS no Heroku
+# Como fazer o deploy de uma aplicação NodeJS no Heroku
 
 ### Clonar projeto inicial criado no github
 ````
